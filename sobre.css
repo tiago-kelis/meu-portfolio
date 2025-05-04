@@ -7,7 +7,7 @@
 
 :root {
     --primary-color: #2563eb;
-    --secondary-color: #1e40af;
+    --secondary-color:rgb(77, 103, 180);
     --accent-color: #3b82f6;
     --dark-color: #1e293b;
     --light-color: #f8fafc;
@@ -48,7 +48,7 @@ a {
 }
 
 a:hover {
-    color: var(--text-color);
+    color: var(--secondary-color);
 }
 
 img {
@@ -294,6 +294,11 @@ header.scrolled {
 }
 
 /* Sobre mim */
+#about {
+    background:rgba(218, 214, 214, 0.81);
+}
+
+
 .about-content {
     display: flex;
     gap: 3rem;
@@ -397,6 +402,11 @@ header.scrolled {
 }
 
 /* Projetos */
+.section-projects {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+}
 
 
 .projects-content {
@@ -407,6 +417,7 @@ header.scrolled {
 
 .project-card {
     border-radius: 10px;
+    padding: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: var(--transition);
@@ -572,6 +583,10 @@ header.scrolled {
 }
 
 /* Contato */
+#contact {
+    background:rgba(218, 214, 214, 0.81);
+}
+
 .contact-content {
     display: flex;
     gap: 3rem;
@@ -627,7 +642,7 @@ header.scrolled {
 }
 
 .social-link:hover {
-    background-color: var(--secondary-color);
+    background-color:rgb(197, 177, 233);
     transform: translateY(-5px);
 }
 
