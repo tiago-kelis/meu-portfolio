@@ -40,6 +40,14 @@ h1, h2, h3, h4, h5, h6 {
 .co {
     color: yellow;
 }
+.cor-azul {
+    color: orange;
+;
+}
+
+.cor-red {
+    color: #FF0000;    
+}
 
 .cor {
     color: green;
