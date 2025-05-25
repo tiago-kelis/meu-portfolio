@@ -222,6 +222,10 @@ header.scrolled {
     padding-top: 60px;
 }
 
+#eu2 {
+    z-index: -10;
+}
+
 .hero-content {
     display: flex;
     align-items: center;
