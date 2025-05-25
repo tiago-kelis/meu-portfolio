@@ -222,13 +222,22 @@ header.scrolled {
     padding-top: 60px;
 }
 
-#eu2 {
+.eu2 {
    position: relative;
     z-index: -10;
     -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
     mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
 
 }
+
+
+.eu3 {
+   position: relative;
+   opacity: var(--transparencia, 0.8); /* Ajustável via CSS */
+   filter: brightness(var(--brilho, 1)); /* Permite tornar mais claro */
+}
+
+
 
 .hero-content {
     display: flex;
