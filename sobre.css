@@ -224,9 +224,12 @@ header.scrolled {
 
 .eu2 {
    position: relative;
+   margin-top: 40px;
     z-index: -10;
     -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
     mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+    opacity: var(--transparencia, 4.8); /* Ajustável via CSS */
+   filter: brightness(var(--brilho, 1.3)); /* Permite tornar mais claro */
 
 }
 
