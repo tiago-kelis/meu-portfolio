@@ -223,7 +223,11 @@ header.scrolled {
 }
 
 #eu2 {
+   position: relative;
     z-index: -10;
+    -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+
 }
 
 .hero-content {
